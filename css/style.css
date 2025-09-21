@@ -1,0 +1,51 @@
+body{
+  font-family:'Fira Sans';
+  font-size:1.4em;
+  line-height:1.3em;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+
+.ul-repo{
+  list-style:none;
+  padding-left:0;
+  
+  h3,
+  p{
+    margin:0 0 1rem 0;
+  }
+}
+
+.li-repo{
+  border-bottom:4px solid #000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.span-topic {
+  display:inline-block;
+  background:#ccc;
+  border-radius:0.3em;
+  margin-right:0.3em;
+  font-size:0.8em;
+  line-height:1em;
+  padding:0.2em;
+}
+
+.img-favicon{
+  display:inline-block;
+  height:1em;
+  width:auto;
+  transform:translatey(0.1em);
+  margin-right:0.3em;
+}
+
+.a-demo{
+  color:inherit;
+  font-weight: 700;
+  display:inline-block;
+  margin-right:0.5em;
+}
