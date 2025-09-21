@@ -8,14 +8,19 @@ body{
   box-sizing:border-box;
 }
 
+h2{
+    margin-bottom:1rem;
+}
+
 
 .ul-repo{
   list-style:none;
   padding-left:0;
+  margin-bottom:2em;
   
   h3,
   p{
-    margin:0 0 1rem 0;
+    margin:0 0 0rem 0;
   }
 }
 
@@ -24,6 +29,13 @@ body{
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
+
+ul .li-repo:last-of-type{
+  border-bottom:none;
+
+}
+
 
 .span-topic {
   display:inline-block;
